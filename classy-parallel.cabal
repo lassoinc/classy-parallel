@@ -13,15 +13,9 @@ Description:
 License:             GPL
 License-file:        LICENSE.txt
 Copyright:           (c) 2010-2011 Mario Blazevic
-Author:              Mario Blazevic
-Maintainer:          blamario@yahoo.com
-Homepage:            http://trac.haskell.org/SCC/wiki/monad-parallel
-Extra-source-files:  Test/TestParallel.hs
--- Source-repository head
---   type:              darcs
---   location:          http://code.haskell.org/SCC/
+Author:              Sam Anklesaria
+Maintainer:          amsay@amsay.net
 
 Library
   Exposed-Modules:   Control.Monad.Parallel
   Build-Depends:     base < 5, parallel, transformers, resourcet, lifted-base, monad-control
-  GHC-prof-options:  -auto-all
